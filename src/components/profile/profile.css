@@ -1,0 +1,50 @@
+.Profile {
+    background: white;
+    text-align: center;
+    color: black;
+    padding: 4rem;
+  }
+  
+  .Profile img {
+    color: #6966bf;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+    object-fit:cover;
+  }
+  
+  .Profile input, .Profile button{
+    margin: 0.75rem auto;
+    min-width: 100%;
+    border: .5px solid	#D3D3D3;
+    min-height: 2rem;
+    border-radius: 5px;
+  }
+  .Profile button{
+      cursor:pointer;
+  }
+  .UploadButton{
+    display: flex;
+    align-items: center;
+    font-weight: 590;
+    justify-content: space-between;  
+    height: 50px;
+    width: 200px;
+  }
+  .UploadButton input{
+      border: none;
+  }
+
+  .logout{
+    background-color: #3a86ba;
+    color: #fff;
+    border: none; 
+  }
+  
+  @media (max-width:400px){
+    .App{
+      align-items:flex-start;
+      overflow-y: auto;
+    }
+  }
